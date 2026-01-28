@@ -8,13 +8,13 @@ int main()
 	{
 		if(n%i==0)
 		{
-			flag =0;
+			flag=0;
 			break;
 		}
 	}
-	if (flag==0)
+	if(flag==0)
 	printf("Not a prime number");
-	else 
+	else
 	printf("Prime number");
 	return 0;
 }
