@@ -2,18 +2,18 @@
 int main()
 {
 	int n,i,s=0;
-	printf("Enter number:");
+	printf("Enter n:");
 	scanf("%d",&n);
-	for (i=1;i<n;i++)
+	for(i=1;i<n;i++)
 	{
-		if(n%i==0)
+		if((n%i)==0)
 		{
 			s=s+i;
 		}
 	}
-	if (s==n)
+	if(s==n)
 	printf("Perfect number");
-	else
-	printf("Not perfect number");
+	else 
+	printf("Not a perfect number");
 	return 0;
 }
